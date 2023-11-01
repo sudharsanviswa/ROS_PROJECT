@@ -1,0 +1,28 @@
+[1.368s] Invoking command in '/home/admin/turtlebot4_ws/src/mover/build/mover': PYTHONPATH=/home/admin/turtlebot4_ws/src/mover/build/mover/prefix_override:/home/admin/turtlebot4_ws/src/mover/install/mover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/admin/turtlebot4_ws/src/mover/build/mover/build --no-deps install_data
+[1.681s] running develop
+[1.692s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.692s]   warnings.warn(
+[1.705s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.705s]   warnings.warn(
+[1.948s] running egg_info
+[1.948s] creating mover.egg-info
+[1.948s] writing mover.egg-info/PKG-INFO
+[1.949s] writing dependency_links to mover.egg-info/dependency_links.txt
+[1.949s] writing entry points to mover.egg-info/entry_points.txt
+[1.949s] writing requirements to mover.egg-info/requires.txt
+[1.949s] writing top-level names to mover.egg-info/top_level.txt
+[1.949s] writing manifest file 'mover.egg-info/SOURCES.txt'
+[1.952s] reading manifest file 'mover.egg-info/SOURCES.txt'
+[1.953s] writing manifest file 'mover.egg-info/SOURCES.txt'
+[1.954s] running build_ext
+[1.955s] Creating /home/admin/turtlebot4_ws/src/mover/install/mover/lib/python3.10/site-packages/mover.egg-link (link to .)
+[1.956s] Installing nav_to_pose script to /home/admin/turtlebot4_ws/src/mover/install/mover/lib/mover
+[1.956s] 
+[1.956s] Installed /home/admin/turtlebot4_ws/src/mover/build/mover
+[1.957s] running install_data
+[1.957s] creating /home/admin/turtlebot4_ws/src/mover/install/mover/share/ament_index
+[1.957s] creating /home/admin/turtlebot4_ws/src/mover/install/mover/share/ament_index/resource_index
+[1.957s] creating /home/admin/turtlebot4_ws/src/mover/install/mover/share/ament_index/resource_index/packages
+[1.957s] copying resource/mover -> /home/admin/turtlebot4_ws/src/mover/install/mover/share/ament_index/resource_index/packages
+[1.957s] copying package.xml -> /home/admin/turtlebot4_ws/src/mover/install/mover/share/mover
+[1.994s] Invoked command in '/home/admin/turtlebot4_ws/src/mover/build/mover' returned '0': PYTHONPATH=/home/admin/turtlebot4_ws/src/mover/build/mover/prefix_override:/home/admin/turtlebot4_ws/src/mover/install/mover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/admin/turtlebot4_ws/src/mover/build/mover/build --no-deps install_data

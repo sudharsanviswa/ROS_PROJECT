@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating mover.egg-info
+writing mover.egg-info/PKG-INFO
+writing dependency_links to mover.egg-info/dependency_links.txt
+writing entry points to mover.egg-info/entry_points.txt
+writing requirements to mover.egg-info/requires.txt
+writing top-level names to mover.egg-info/top_level.txt
+writing manifest file 'mover.egg-info/SOURCES.txt'
+reading manifest file 'mover.egg-info/SOURCES.txt'
+writing manifest file 'mover.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/admin/turtlebot4_ws/src/mover/install/mover/lib/python3.10/site-packages/mover.egg-link (link to .)
+Installing nav_to_pose script to /home/admin/turtlebot4_ws/src/mover/install/mover/lib/mover
+
+Installed /home/admin/turtlebot4_ws/src/mover/build/mover
+running install_data
+creating /home/admin/turtlebot4_ws/src/mover/install/mover/share/ament_index
+creating /home/admin/turtlebot4_ws/src/mover/install/mover/share/ament_index/resource_index
+creating /home/admin/turtlebot4_ws/src/mover/install/mover/share/ament_index/resource_index/packages
+copying resource/mover -> /home/admin/turtlebot4_ws/src/mover/install/mover/share/ament_index/resource_index/packages
+copying package.xml -> /home/admin/turtlebot4_ws/src/mover/install/mover/share/mover

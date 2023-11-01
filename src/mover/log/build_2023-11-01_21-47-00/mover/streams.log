@@ -1,0 +1,22 @@
+[1.971s] Invoking command in '/home/admin/turtlebot4_ws/src/mover/build/mover': PYTHONPATH=/home/admin/turtlebot4_ws/src/mover/build/mover/prefix_override:/home/admin/turtlebot4_ws/src/mover/install/mover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/admin/turtlebot4_ws/src/mover/build/mover/build --no-deps install_data
+[2.368s] running develop
+[2.378s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.378s]   warnings.warn(
+[2.390s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.390s]   warnings.warn(
+[2.773s] running egg_info
+[2.773s] writing mover.egg-info/PKG-INFO
+[2.773s] writing dependency_links to mover.egg-info/dependency_links.txt
+[2.774s] writing entry points to mover.egg-info/entry_points.txt
+[2.774s] writing requirements to mover.egg-info/requires.txt
+[2.774s] writing top-level names to mover.egg-info/top_level.txt
+[2.777s] reading manifest file 'mover.egg-info/SOURCES.txt'
+[2.778s] writing manifest file 'mover.egg-info/SOURCES.txt'
+[2.780s] running build_ext
+[2.780s] Creating /home/admin/turtlebot4_ws/src/mover/install/mover/lib/python3.10/site-packages/mover.egg-link (link to .)
+[2.781s] Installing nav_to script to /home/admin/turtlebot4_ws/src/mover/install/mover/lib/mover
+[2.782s] Installing nav_to_pose script to /home/admin/turtlebot4_ws/src/mover/install/mover/lib/mover
+[2.782s] 
+[2.782s] Installed /home/admin/turtlebot4_ws/src/mover/build/mover
+[2.782s] running install_data
+[2.830s] Invoked command in '/home/admin/turtlebot4_ws/src/mover/build/mover' returned '0': PYTHONPATH=/home/admin/turtlebot4_ws/src/mover/build/mover/prefix_override:/home/admin/turtlebot4_ws/src/mover/install/mover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/admin/turtlebot4_ws/src/mover/build/mover/build --no-deps install_data

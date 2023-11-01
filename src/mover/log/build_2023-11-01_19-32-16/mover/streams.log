@@ -1,0 +1,21 @@
+[2.333s] Invoking command in '/home/admin/turtlebot4_ws/src/mover/build/mover': PYTHONPATH=/home/admin/turtlebot4_ws/src/mover/build/mover/prefix_override:/home/admin/turtlebot4_ws/src/mover/install/mover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/admin/turtlebot4_ws/src/mover/build/mover/build --no-deps install_data
+[3.054s] running develop
+[3.055s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.056s]   warnings.warn(
+[3.060s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.060s]   warnings.warn(
+[3.554s] running egg_info
+[3.554s] writing mover.egg-info/PKG-INFO
+[3.555s] writing dependency_links to mover.egg-info/dependency_links.txt
+[3.555s] writing entry points to mover.egg-info/entry_points.txt
+[3.556s] writing requirements to mover.egg-info/requires.txt
+[3.556s] writing top-level names to mover.egg-info/top_level.txt
+[3.561s] reading manifest file 'mover.egg-info/SOURCES.txt'
+[3.563s] writing manifest file 'mover.egg-info/SOURCES.txt'
+[3.565s] running build_ext
+[3.566s] Creating /home/admin/turtlebot4_ws/src/mover/install/mover/lib/python3.10/site-packages/mover.egg-link (link to .)
+[3.568s] Installing nav_to_pose script to /home/admin/turtlebot4_ws/src/mover/install/mover/lib/mover
+[3.569s] 
+[3.569s] Installed /home/admin/turtlebot4_ws/src/mover/build/mover
+[3.569s] running install_data
+[3.629s] Invoked command in '/home/admin/turtlebot4_ws/src/mover/build/mover' returned '0': PYTHONPATH=/home/admin/turtlebot4_ws/src/mover/build/mover/prefix_override:/home/admin/turtlebot4_ws/src/mover/install/mover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/admin/turtlebot4_ws/src/mover/build/mover/build --no-deps install_data

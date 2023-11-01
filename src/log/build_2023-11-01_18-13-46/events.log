@@ -1,0 +1,637 @@
+[0.000000] (-) TimerEvent: {}
+[0.000111] (turtlebot4_ignition_gui_plugins) JobQueued: {'identifier': 'turtlebot4_ignition_gui_plugins', 'dependencies': OrderedDict()}
+[0.000142] (turtlebot4_ignition_toolbox) JobQueued: {'identifier': 'turtlebot4_ignition_toolbox', 'dependencies': OrderedDict()}
+[0.000166] (turtlebot4_ignition_bringup) JobQueued: {'identifier': 'turtlebot4_ignition_bringup', 'dependencies': OrderedDict([('turtlebot4_ignition_gui_plugins', '/home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_gui_plugins'), ('turtlebot4_ignition_toolbox', '/home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox')])}
+[0.000189] (turtlebot4_simulator) JobQueued: {'identifier': 'turtlebot4_simulator', 'dependencies': OrderedDict([('turtlebot4_ignition_gui_plugins', '/home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_gui_plugins'), ('turtlebot4_ignition_toolbox', '/home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox'), ('turtlebot4_ignition_bringup', '/home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_bringup')])}
+[0.000282] (turtlebot4_ignition_gui_plugins) JobStarted: {'identifier': 'turtlebot4_ignition_gui_plugins'}
+[0.064528] (turtlebot4_ignition_toolbox) JobStarted: {'identifier': 'turtlebot4_ignition_toolbox'}
+[0.099414] (-) TimerEvent: {}
+[0.120991] (turtlebot4_ignition_gui_plugins) JobProgress: {'identifier': 'turtlebot4_ignition_gui_plugins', 'progress': 'cmake'}
+[0.121119] (turtlebot4_ignition_gui_plugins) Command: {'cmd': ['/usr/bin/cmake', '/home/admin/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_gui_plugins', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_gui_plugins'], 'cwd': '/home/admin/turtlebot4_ws/src/build/turtlebot4_ignition_gui_plugins', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'admin'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/admin'), ('OLDPWD', '/home/admin/turtlebot4_ws/src/turtlebot4_simulator'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3973'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'admin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'admin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '3'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sudharsanviswa-Predator-PH315-51:@/tmp/.ICE-unix/3939,unix/sudharsanviswa-Predator-PH315-51:/tmp/.ICE-unix/3939'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9b812b29_e590_4441_8461_e8877aae1a21'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/admin/turtlebot4_ws/src/build/turtlebot4_ignition_gui_plugins'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.139091] (turtlebot4_ignition_toolbox) JobProgress: {'identifier': 'turtlebot4_ignition_toolbox', 'progress': 'cmake'}
+[0.139792] (turtlebot4_ignition_toolbox) Command: {'cmd': ['/usr/bin/cmake', '/home/admin/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_toolbox', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox'], 'cwd': '/home/admin/turtlebot4_ws/src/build/turtlebot4_ignition_toolbox', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'admin'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/admin'), ('OLDPWD', '/home/admin/turtlebot4_ws/src/turtlebot4_simulator'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3973'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'admin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'admin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '3'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sudharsanviswa-Predator-PH315-51:@/tmp/.ICE-unix/3939,unix/sudharsanviswa-Predator-PH315-51:/tmp/.ICE-unix/3939'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9b812b29_e590_4441_8461_e8877aae1a21'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/admin/turtlebot4_ws/src/build/turtlebot4_ignition_toolbox'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.199637] (-) TimerEvent: {}
+[0.300298] (-) TimerEvent: {}
+[0.400955] (-) TimerEvent: {}
+[0.501591] (-) TimerEvent: {}
+[0.602240] (-) TimerEvent: {}
+[0.703097] (-) TimerEvent: {}
+[0.804001] (-) TimerEvent: {}
+[0.904792] (-) TimerEvent: {}
+[1.005492] (-) TimerEvent: {}
+[1.106190] (-) TimerEvent: {}
+[1.206899] (-) TimerEvent: {}
+[1.307600] (-) TimerEvent: {}
+[1.376005] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.376341] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.407752] (-) TimerEvent: {}
+[1.508441] (-) TimerEvent: {}
+[1.609145] (-) TimerEvent: {}
+[1.709815] (-) TimerEvent: {}
+[1.810476] (-) TimerEvent: {}
+[1.911138] (-) TimerEvent: {}
+[2.011782] (-) TimerEvent: {}
+[2.015354] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.015677] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.101364] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.102096] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.111956] (-) TimerEvent: {}
+[2.212527] (-) TimerEvent: {}
+[2.301908] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.302066] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.308751] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.308914] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.309192] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.309365] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.312742] (-) TimerEvent: {}
+[2.321312] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.321561] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.339087] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.339576] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.412908] (-) TimerEvent: {}
+[2.513366] (-) TimerEvent: {}
+[2.533485] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.533741] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.540350] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.540654] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.541001] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.541305] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.541684] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.541771] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.613570] (-) TimerEvent: {}
+[2.714077] (-) TimerEvent: {}
+[2.717123] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.717582] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.814182] (-) TimerEvent: {}
+[2.914435] (-) TimerEvent: {}
+[2.976767] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[2.976974] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[3.014553] (-) TimerEvent: {}
+[3.062075] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.062277] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.114687] (-) TimerEvent: {}
+[3.209517] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.214933] (-) TimerEvent: {}
+[3.222896] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.315040] (-) TimerEvent: {}
+[3.415383] (-) TimerEvent: {}
+[3.515875] (-) TimerEvent: {}
+[3.563575] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.616093] (-) TimerEvent: {}
+[3.644888] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.695786] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.716254] (-) TimerEvent: {}
+[3.741931] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Looking for ignition-gui6 -- found version 6.8.0\n'}
+[3.816487] (-) TimerEvent: {}
+[3.869661] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.870426] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-gui6\n'}
+[3.916690] (-) TimerEvent: {}
+[3.954571] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.016840] (-) TimerEvent: {}
+[4.117267] (-) TimerEvent: {}
+[4.217803] (-) TimerEvent: {}
+[4.290387] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.311557] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.317942] (-) TimerEvent: {}
+[4.418342] (-) TimerEvent: {}
+[4.435605] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[4.502598] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[4.518519] (-) TimerEvent: {}
+[4.546553] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[4.595401] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.0\n'}
+[4.595994] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[4.614486] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[4.615171] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4\n'}
+[4.616770] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[4.617797] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[4.618621] (-) TimerEvent: {}
+[4.619854] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[4.627601] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.634807] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[4.683258] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[4.699763] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.714600] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[4.715280] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [profiler]\n'}
+[4.718719] (-) TimerEvent: {}
+[4.730095] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Looking for ignition-common4-profiler -- found version 4.7.0\n'}
+[4.730540] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-profiler\n'}
+[4.741202] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[4.741599] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1\n'}
+[4.742278] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Searching for <ignition-plugin1> component [loader]\n'}
+[4.744370] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Looking for ignition-plugin1-loader -- found version 1.4.0\n'}
+[4.744780] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.744943] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1-loader\n'}
+[4.754944] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Searching for <ignition-plugin1> component [register]\n'}
+[4.757137] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Looking for ignition-plugin1-register -- found version 1.4.0\n'}
+[4.757589] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1-register\n'}
+[4.775390] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Looking for ignition-transport11 -- found version 11.4.1\n'}
+[4.775823] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport11\n'}
+[4.792730] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[4.804499] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[4.806180] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.808527] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[4.818846] (-) TimerEvent: {}
+[4.888964] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[4.893106] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.893600] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.918974] (-) TimerEvent: {}
+[4.920241] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[4.944847] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[4.945363] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-utils1\n'}
+[4.946241] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Searching for <ignition-utils1> component [cli]\n'}
+[4.951638] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Looking for ignition-utils1-cli -- found version 1.5.1\n'}
+[4.952131] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-utils1-cli\n'}
+[4.956944] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.957942] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.968320] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[4.968756] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs8\n'}
+[4.985278] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[4.986011] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.0\n'}
+[5.019206] (-) TimerEvent: {}
+[5.055080] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Looking for ignition-rendering6 -- found version 6.6.2\n'}
+[5.056990] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-rendering6\n'}
+[5.058423] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.0\n'}
+[5.060279] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[5.060909] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Searching for <ignition-math6> component [eigen3]\n'}
+[5.078041] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6-eigen3 -- found version 6.15.0\n'}
+[5.080006] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6-eigen3\n'}
+[5.119475] (-) TimerEvent: {}
+[5.129254] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[5.129610] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4\n'}
+[5.129803] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[5.129889] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[5.137378] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [graphics]\n'}
+[5.139318] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Looking for ignition-common4-graphics -- found version 4.7.0\n'}
+[5.139767] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-graphics\n'}
+[5.140082] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.0\n'}
+[5.140449] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Looking for ignition-utils1 -- found version 1.5.1\n'}
+[5.158017] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Searching for <ignition-common4> component [events]\n'}
+[5.183915] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Looking for ignition-common4-events -- found version 4.7.0\n'}
+[5.184358] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common4-events\n'}
+[5.184697] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.0\n'}
+[5.185975] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[5.186403] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Searching for dependencies of ignition-plugin1\n'}
+[5.186592] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Searching for <ignition-plugin1> component [all]\n'}
+[5.188702] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Looking for all libraries of ignition-plugin1 -- found version 1.4.0\n'}
+[5.189232] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Looking for ignition-plugin1 -- found version 1.4.0\n'}
+[5.191846] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Looking for ignition-msgs8 -- found version 8.7.0\n'}
+[5.210123] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Looking for ignition-common4 -- found version 4.7.0\n'}
+[5.219663] (-) TimerEvent: {}
+[5.291803] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.292198] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[5.292362] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.306958] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[5.307184] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[5.311445] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.319780] (-) TimerEvent: {}
+[5.322991] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.330887] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.373190] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Generating done\n'}
+[5.374448] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Build files have been written to: /home/admin/turtlebot4_ws/src/build/turtlebot4_ignition_gui_plugins\n'}
+[5.382127] (turtlebot4_ignition_gui_plugins) CommandEnded: {'returncode': 0}
+[5.382701] (turtlebot4_ignition_gui_plugins) JobProgress: {'identifier': 'turtlebot4_ignition_gui_plugins', 'progress': 'build'}
+[5.384046] (turtlebot4_ignition_gui_plugins) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/admin/turtlebot4_ws/src/build/turtlebot4_ignition_gui_plugins', '--', '-j12', '-l12'], 'cwd': '/home/admin/turtlebot4_ws/src/build/turtlebot4_ignition_gui_plugins', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'admin'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/admin'), ('OLDPWD', '/home/admin/turtlebot4_ws/src/turtlebot4_simulator'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3973'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'admin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'admin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '3'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sudharsanviswa-Predator-PH315-51:@/tmp/.ICE-unix/3939,unix/sudharsanviswa-Predator-PH315-51:/tmp/.ICE-unix/3939'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9b812b29_e590_4441_8461_e8877aae1a21'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/admin/turtlebot4_ws/src/build/turtlebot4_ignition_gui_plugins'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.411815] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.6 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[5.419901] (-) TimerEvent: {}
+[5.428731] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mAutomatic MOC for target Turtlebot4Hmi\x1b[0m\n'}
+[5.520111] (-) TimerEvent: {}
+[5.620790] (-) TimerEvent: {}
+[5.721144] (-) TimerEvent: {}
+[5.799118] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[5.821250] (-) TimerEvent: {}
+[5.921528] (-) TimerEvent: {}
+[6.021795] (-) TimerEvent: {}
+[6.122219] (-) TimerEvent: {}
+[6.174750] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Found turtlebot4_msgs: 1.0.3 (/opt/ros/humble/share/turtlebot4_msgs/cmake)\n'}
+[6.222445] (-) TimerEvent: {}
+[6.247288] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.320506] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.320795] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/admin/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_toolbox/include\n'}
+[6.320881] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.321630] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[6.321714] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[6.322282] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.322478] (-) TimerEvent: {}
+[6.333365] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.333455] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.333855] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.355772] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.370696] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Generating done\n'}
+[6.372344] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Build files have been written to: /home/admin/turtlebot4_ws/src/build/turtlebot4_ignition_toolbox\n'}
+[6.383004] (turtlebot4_ignition_toolbox) CommandEnded: {'returncode': 0}
+[6.383628] (turtlebot4_ignition_toolbox) JobProgress: {'identifier': 'turtlebot4_ignition_toolbox', 'progress': 'build'}
+[6.383655] (turtlebot4_ignition_toolbox) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/admin/turtlebot4_ws/src/build/turtlebot4_ignition_toolbox', '--', '-j12', '-l12'], 'cwd': '/home/admin/turtlebot4_ws/src/build/turtlebot4_ignition_toolbox', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'admin'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/admin'), ('OLDPWD', '/home/admin/turtlebot4_ws/src/turtlebot4_simulator'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3973'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'admin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'admin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '3'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sudharsanviswa-Predator-PH315-51:@/tmp/.ICE-unix/3939,unix/sudharsanviswa-Predator-PH315-51:/tmp/.ICE-unix/3939'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9b812b29_e590_4441_8461_e8877aae1a21'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/admin/turtlebot4_ws/src/build/turtlebot4_ignition_toolbox'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.422621] (-) TimerEvent: {}
+[6.429036] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot4_ignition_toolbox_lib.dir/src/hmi_main.cpp.o\x1b[0m\n'}
+[6.429291] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot4_ignition_toolbox_lib.dir/src/hmi_node.cpp.o\x1b[0m\n'}
+[6.522836] (-) TimerEvent: {}
+[6.623548] (-) TimerEvent: {}
+[6.724208] (-) TimerEvent: {}
+[6.824742] (-) TimerEvent: {}
+[6.925118] (-) TimerEvent: {}
+[7.025731] (-) TimerEvent: {}
+[7.126356] (-) TimerEvent: {}
+[7.226613] (-) TimerEvent: {}
+[7.327017] (-) TimerEvent: {}
+[7.427534] (-) TimerEvent: {}
+[7.528030] (-) TimerEvent: {}
+[7.628728] (-) TimerEvent: {}
+[7.729392] (-) TimerEvent: {}
+[7.830047] (-) TimerEvent: {}
+[7.930748] (-) TimerEvent: {}
+[8.031344] (-) TimerEvent: {}
+[8.132064] (-) TimerEvent: {}
+[8.232647] (-) TimerEvent: {}
+[8.333084] (-) TimerEvent: {}
+[8.433717] (-) TimerEvent: {}
+[8.534379] (-) TimerEvent: {}
+[8.635076] (-) TimerEvent: {}
+[8.735749] (-) TimerEvent: {}
+[8.836404] (-) TimerEvent: {}
+[8.937056] (-) TimerEvent: {}
+[9.037741] (-) TimerEvent: {}
+[9.138308] (-) TimerEvent: {}
+[9.238703] (-) TimerEvent: {}
+[9.339367] (-) TimerEvent: {}
+[9.440045] (-) TimerEvent: {}
+[9.540691] (-) TimerEvent: {}
+[9.641314] (-) TimerEvent: {}
+[9.742016] (-) TimerEvent: {}
+[9.842713] (-) TimerEvent: {}
+[9.942994] (-) TimerEvent: {}
+[10.043279] (-) TimerEvent: {}
+[10.143562] (-) TimerEvent: {}
+[10.243854] (-) TimerEvent: {}
+[10.344150] (-) TimerEvent: {}
+[10.444449] (-) TimerEvent: {}
+[10.544818] (-) TimerEvent: {}
+[10.645330] (-) TimerEvent: {}
+[10.745829] (-) TimerEvent: {}
+[10.846330] (-) TimerEvent: {}
+[10.946840] (-) TimerEvent: {}
+[11.047325] (-) TimerEvent: {}
+[11.147834] (-) TimerEvent: {}
+[11.248320] (-) TimerEvent: {}
+[11.348820] (-) TimerEvent: {}
+[11.449320] (-) TimerEvent: {}
+[11.549819] (-) TimerEvent: {}
+[11.650274] (-) TimerEvent: {}
+[11.750690] (-) TimerEvent: {}
+[11.804477] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'[ 16%] Built target Turtlebot4Hmi_autogen\n'}
+[11.816883] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating qrc_Turtlebot4Hmi.cpp\x1b[0m\n'}
+[11.850831] (-) TimerEvent: {}
+[11.871348] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object Turtlebot4Hmi/CMakeFiles/Turtlebot4Hmi.dir/Turtlebot4Hmi_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[11.871564] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object Turtlebot4Hmi/CMakeFiles/Turtlebot4Hmi.dir/Turtlebot4Hmi.cc.o\x1b[0m\n'}
+[11.871659] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object Turtlebot4Hmi/CMakeFiles/Turtlebot4Hmi.dir/qrc_Turtlebot4Hmi.cpp.o\x1b[0m\n'}
+[11.950973] (-) TimerEvent: {}
+[12.051424] (-) TimerEvent: {}
+[12.151757] (-) TimerEvent: {}
+[12.252083] (-) TimerEvent: {}
+[12.352405] (-) TimerEvent: {}
+[12.452764] (-) TimerEvent: {}
+[12.553110] (-) TimerEvent: {}
+[12.653452] (-) TimerEvent: {}
+[12.753811] (-) TimerEvent: {}
+[12.854161] (-) TimerEvent: {}
+[12.954492] (-) TimerEvent: {}
+[13.054818] (-) TimerEvent: {}
+[13.155138] (-) TimerEvent: {}
+[13.255458] (-) TimerEvent: {}
+[13.355814] (-) TimerEvent: {}
+[13.456136] (-) TimerEvent: {}
+[13.556440] (-) TimerEvent: {}
+[13.656747] (-) TimerEvent: {}
+[13.757060] (-) TimerEvent: {}
+[13.857368] (-) TimerEvent: {}
+[13.957669] (-) TimerEvent: {}
+[14.057979] (-) TimerEvent: {}
+[14.158294] (-) TimerEvent: {}
+[14.258611] (-) TimerEvent: {}
+[14.358928] (-) TimerEvent: {}
+[14.459251] (-) TimerEvent: {}
+[14.559571] (-) TimerEvent: {}
+[14.659877] (-) TimerEvent: {}
+[14.760199] (-) TimerEvent: {}
+[14.860523] (-) TimerEvent: {}
+[14.960834] (-) TimerEvent: {}
+[15.061148] (-) TimerEvent: {}
+[15.161459] (-) TimerEvent: {}
+[15.261769] (-) TimerEvent: {}
+[15.362082] (-) TimerEvent: {}
+[15.462394] (-) TimerEvent: {}
+[15.562725] (-) TimerEvent: {}
+[15.663035] (-) TimerEvent: {}
+[15.763348] (-) TimerEvent: {}
+[15.863669] (-) TimerEvent: {}
+[15.963973] (-) TimerEvent: {}
+[16.064288] (-) TimerEvent: {}
+[16.164611] (-) TimerEvent: {}
+[16.264930] (-) TimerEvent: {}
+[16.365271] (-) TimerEvent: {}
+[16.465584] (-) TimerEvent: {}
+[16.565893] (-) TimerEvent: {}
+[16.666208] (-) TimerEvent: {}
+[16.766530] (-) TimerEvent: {}
+[16.866881] (-) TimerEvent: {}
+[16.967213] (-) TimerEvent: {}
+[17.067545] (-) TimerEvent: {}
+[17.167888] (-) TimerEvent: {}
+[17.268205] (-) TimerEvent: {}
+[17.368531] (-) TimerEvent: {}
+[17.468851] (-) TimerEvent: {}
+[17.569190] (-) TimerEvent: {}
+[17.669508] (-) TimerEvent: {}
+[17.769820] (-) TimerEvent: {}
+[17.870131] (-) TimerEvent: {}
+[17.970442] (-) TimerEvent: {}
+[18.070750] (-) TimerEvent: {}
+[18.171078] (-) TimerEvent: {}
+[18.271388] (-) TimerEvent: {}
+[18.371711] (-) TimerEvent: {}
+[18.472022] (-) TimerEvent: {}
+[18.572329] (-) TimerEvent: {}
+[18.672638] (-) TimerEvent: {}
+[18.772946] (-) TimerEvent: {}
+[18.873262] (-) TimerEvent: {}
+[18.973576] (-) TimerEvent: {}
+[19.073900] (-) TimerEvent: {}
+[19.174245] (-) TimerEvent: {}
+[19.274589] (-) TimerEvent: {}
+[19.374934] (-) TimerEvent: {}
+[19.475276] (-) TimerEvent: {}
+[19.575638] (-) TimerEvent: {}
+[19.675973] (-) TimerEvent: {}
+[19.776303] (-) TimerEvent: {}
+[19.876641] (-) TimerEvent: {}
+[19.976927] (-) TimerEvent: {}
+[20.077237] (-) TimerEvent: {}
+[20.177538] (-) TimerEvent: {}
+[20.277823] (-) TimerEvent: {}
+[20.378083] (-) TimerEvent: {}
+[20.478375] (-) TimerEvent: {}
+[20.578635] (-) TimerEvent: {}
+[20.678953] (-) TimerEvent: {}
+[20.779243] (-) TimerEvent: {}
+[20.879542] (-) TimerEvent: {}
+[20.979844] (-) TimerEvent: {}
+[21.043709] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libTurtlebot4Hmi.so\x1b[0m\n'}
+[21.079978] (-) TimerEvent: {}
+[21.180288] (-) TimerEvent: {}
+[21.280582] (-) TimerEvent: {}
+[21.380896] (-) TimerEvent: {}
+[21.481192] (-) TimerEvent: {}
+[21.492890] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'[100%] Built target Turtlebot4Hmi\n'}
+[21.505910] (turtlebot4_ignition_gui_plugins) CommandEnded: {'returncode': 0}
+[21.534252] (turtlebot4_ignition_gui_plugins) JobProgress: {'identifier': 'turtlebot4_ignition_gui_plugins', 'progress': 'install'}
+[21.544729] (turtlebot4_ignition_gui_plugins) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/admin/turtlebot4_ws/src/build/turtlebot4_ignition_gui_plugins'], 'cwd': '/home/admin/turtlebot4_ws/src/build/turtlebot4_ignition_gui_plugins', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'admin'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/admin'), ('OLDPWD', '/home/admin/turtlebot4_ws/src/turtlebot4_simulator'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3973'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'admin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'admin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '3'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sudharsanviswa-Predator-PH315-51:@/tmp/.ICE-unix/3939,unix/sudharsanviswa-Predator-PH315-51:/tmp/.ICE-unix/3939'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9b812b29_e590_4441_8461_e8877aae1a21'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/admin/turtlebot4_ws/src/build/turtlebot4_ignition_gui_plugins'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[21.553354] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.553854] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[21.554387] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_gui_plugins/share/turtlebot4_ignition_gui_plugins/lib/libTurtlebot4Hmi.so\n'}
+[21.564722] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_gui_plugins/share/ament_index/resource_index/package_run_dependencies/turtlebot4_ignition_gui_plugins\n'}
+[21.574707] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_gui_plugins/share/ament_index/resource_index/parent_prefix_path/turtlebot4_ignition_gui_plugins\n'}
+[21.581316] (-) TimerEvent: {}
+[21.584538] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_gui_plugins/share/turtlebot4_ignition_gui_plugins/environment/ament_prefix_path.sh\n'}
+[21.594370] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_gui_plugins/share/turtlebot4_ignition_gui_plugins/environment/ament_prefix_path.dsv\n'}
+[21.604437] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_gui_plugins/share/turtlebot4_ignition_gui_plugins/environment/path.sh\n'}
+[21.614521] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_gui_plugins/share/turtlebot4_ignition_gui_plugins/environment/path.dsv\n'}
+[21.624510] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_gui_plugins/share/turtlebot4_ignition_gui_plugins/local_setup.bash\n'}
+[21.634405] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_gui_plugins/share/turtlebot4_ignition_gui_plugins/local_setup.sh\n'}
+[21.644538] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_gui_plugins/share/turtlebot4_ignition_gui_plugins/local_setup.zsh\n'}
+[21.654521] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_gui_plugins/share/turtlebot4_ignition_gui_plugins/local_setup.dsv\n'}
+[21.664607] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_gui_plugins/share/turtlebot4_ignition_gui_plugins/package.dsv\n'}
+[21.674506] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_gui_plugins/share/ament_index/resource_index/packages/turtlebot4_ignition_gui_plugins\n'}
+[21.681449] (-) TimerEvent: {}
+[21.684433] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_gui_plugins/share/turtlebot4_ignition_gui_plugins/cmake/turtlebot4_ignition_gui_pluginsConfig.cmake\n'}
+[21.694368] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_gui_plugins/share/turtlebot4_ignition_gui_plugins/cmake/turtlebot4_ignition_gui_pluginsConfig-version.cmake\n'}
+[21.704139] (turtlebot4_ignition_gui_plugins) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_gui_plugins/share/turtlebot4_ignition_gui_plugins/package.xml\n'}
+[21.716753] (turtlebot4_ignition_gui_plugins) CommandEnded: {'returncode': 0}
+[21.781568] (-) TimerEvent: {}
+[21.881824] (-) TimerEvent: {}
+[21.982512] (-) TimerEvent: {}
+[21.996602] (turtlebot4_ignition_gui_plugins) JobEnded: {'identifier': 'turtlebot4_ignition_gui_plugins', 'rc': 0}
+[22.082649] (-) TimerEvent: {}
+[22.182928] (-) TimerEvent: {}
+[22.283216] (-) TimerEvent: {}
+[22.383510] (-) TimerEvent: {}
+[22.483756] (-) TimerEvent: {}
+[22.584156] (-) TimerEvent: {}
+[22.684764] (-) TimerEvent: {}
+[22.785259] (-) TimerEvent: {}
+[22.885549] (-) TimerEvent: {}
+[22.985834] (-) TimerEvent: {}
+[23.086123] (-) TimerEvent: {}
+[23.186432] (-) TimerEvent: {}
+[23.286737] (-) TimerEvent: {}
+[23.387031] (-) TimerEvent: {}
+[23.450314] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX static library libturtlebot4_ignition_toolbox_lib.a\x1b[0m\n'}
+[23.487313] (-) TimerEvent: {}
+[23.587595] (-) TimerEvent: {}
+[23.687958] (-) TimerEvent: {}
+[23.788367] (-) TimerEvent: {}
+[23.888956] (-) TimerEvent: {}
+[23.989446] (-) TimerEvent: {}
+[24.060884] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'[ 60%] Built target turtlebot4_ignition_toolbox_lib\n'}
+[24.078198] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot4_ignition_hmi_node.dir/src/hmi_main.cpp.o\x1b[0m\n'}
+[24.089558] (-) TimerEvent: {}
+[24.189825] (-) TimerEvent: {}
+[24.290087] (-) TimerEvent: {}
+[24.390371] (-) TimerEvent: {}
+[24.490654] (-) TimerEvent: {}
+[24.590936] (-) TimerEvent: {}
+[24.691219] (-) TimerEvent: {}
+[24.791544] (-) TimerEvent: {}
+[24.891832] (-) TimerEvent: {}
+[24.992117] (-) TimerEvent: {}
+[25.092402] (-) TimerEvent: {}
+[25.192687] (-) TimerEvent: {}
+[25.292978] (-) TimerEvent: {}
+[25.393265] (-) TimerEvent: {}
+[25.493550] (-) TimerEvent: {}
+[25.593860] (-) TimerEvent: {}
+[25.694174] (-) TimerEvent: {}
+[25.794485] (-) TimerEvent: {}
+[25.894776] (-) TimerEvent: {}
+[25.995064] (-) TimerEvent: {}
+[26.095350] (-) TimerEvent: {}
+[26.195645] (-) TimerEvent: {}
+[26.295931] (-) TimerEvent: {}
+[26.396218] (-) TimerEvent: {}
+[26.477606] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtlebot4_ignition_hmi_node\x1b[0m\n'}
+[26.496369] (-) TimerEvent: {}
+[26.596661] (-) TimerEvent: {}
+[26.697039] (-) TimerEvent: {}
+[26.797458] (-) TimerEvent: {}
+[26.897932] (-) TimerEvent: {}
+[26.998232] (-) TimerEvent: {}
+[27.098531] (-) TimerEvent: {}
+[27.198831] (-) TimerEvent: {}
+[27.218986] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'[100%] Built target turtlebot4_ignition_hmi_node\n'}
+[27.229188] (turtlebot4_ignition_toolbox) CommandEnded: {'returncode': 0}
+[27.254963] (turtlebot4_ignition_toolbox) JobProgress: {'identifier': 'turtlebot4_ignition_toolbox', 'progress': 'install'}
+[27.255429] (turtlebot4_ignition_toolbox) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/admin/turtlebot4_ws/src/build/turtlebot4_ignition_toolbox'], 'cwd': '/home/admin/turtlebot4_ws/src/build/turtlebot4_ignition_toolbox', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'admin'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/admin'), ('OLDPWD', '/home/admin/turtlebot4_ws/src/turtlebot4_simulator'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3973'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'admin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'admin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '3'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sudharsanviswa-Predator-PH315-51:@/tmp/.ICE-unix/3939,unix/sudharsanviswa-Predator-PH315-51:/tmp/.ICE-unix/3939'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9b812b29_e590_4441_8461_e8877aae1a21'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/admin/turtlebot4_ws/src/build/turtlebot4_ignition_toolbox'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[27.262605] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.262990] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[27.263293] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox/lib/turtlebot4_ignition_toolbox/turtlebot4_ignition_hmi_node\n'}
+[27.270997] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox/share/ament_index/resource_index/package_run_dependencies/turtlebot4_ignition_toolbox\n'}
+[27.278447] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox/share/ament_index/resource_index/parent_prefix_path/turtlebot4_ignition_toolbox\n'}
+[27.285927] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/environment/ament_prefix_path.sh\n'}
+[27.293451] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/environment/ament_prefix_path.dsv\n'}
+[27.298930] (-) TimerEvent: {}
+[27.300864] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/environment/path.sh\n'}
+[27.308530] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/environment/path.dsv\n'}
+[27.315994] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/local_setup.bash\n'}
+[27.323339] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/local_setup.sh\n'}
+[27.330903] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/local_setup.zsh\n'}
+[27.338422] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/local_setup.dsv\n'}
+[27.346318] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/package.dsv\n'}
+[27.353812] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox/share/ament_index/resource_index/packages/turtlebot4_ignition_toolbox\n'}
+[27.361244] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[27.368645] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/cmake/turtlebot4_ignition_toolboxConfig.cmake\n'}
+[27.375997] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/cmake/turtlebot4_ignition_toolboxConfig-version.cmake\n'}
+[27.383558] (turtlebot4_ignition_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/package.xml\n'}
+[27.392947] (turtlebot4_ignition_toolbox) CommandEnded: {'returncode': 0}
+[27.399023] (-) TimerEvent: {}
+[27.499346] (-) TimerEvent: {}
+[27.526613] (turtlebot4_ignition_toolbox) JobEnded: {'identifier': 'turtlebot4_ignition_toolbox', 'rc': 0}
+[27.527361] (turtlebot4_ignition_bringup) JobStarted: {'identifier': 'turtlebot4_ignition_bringup'}
+[27.574779] (turtlebot4_ignition_bringup) JobProgress: {'identifier': 'turtlebot4_ignition_bringup', 'progress': 'cmake'}
+[27.575432] (turtlebot4_ignition_bringup) Command: {'cmd': ['/usr/bin/cmake', '/home/admin/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_bringup', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_bringup'], 'cwd': '/home/admin/turtlebot4_ws/src/build/turtlebot4_ignition_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'admin'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/admin'), ('OLDPWD', '/home/admin/turtlebot4_ws/src/turtlebot4_simulator'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3973'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'admin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'admin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '3'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sudharsanviswa-Predator-PH315-51:@/tmp/.ICE-unix/3939,unix/sudharsanviswa-Predator-PH315-51:/tmp/.ICE-unix/3939'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9b812b29_e590_4441_8461_e8877aae1a21'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox:/home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_gui_plugins:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/admin/turtlebot4_ws/src/build/turtlebot4_ignition_bringup'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox:/home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_gui_plugins:/opt/ros/humble')]), 'shell': False}
+[27.599455] (-) TimerEvent: {}
+[27.623980] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[27.680463] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[27.687683] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[27.699557] (-) TimerEvent: {}
+[27.750451] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[27.757710] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[27.757969] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[27.758327] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[27.761118] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[27.799736] (-) TimerEvent: {}
+[27.867825] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[27.875244] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[27.875472] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[27.875956] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[27.878437] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[27.899843] (-) TimerEvent: {}
+[28.000048] (-) TimerEvent: {}
+[28.025335] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[28.076754] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[28.100153] (-) TimerEvent: {}
+[28.122963] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Found ros_ign_interfaces: 0.244.11 (/opt/ros/humble/share/ros_ign_interfaces/cmake)\n'}
+[28.161798] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[28.167766] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[28.177577] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[28.193664] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[28.200257] (-) TimerEvent: {}
+[28.216897] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[28.300381] (-) TimerEvent: {}
+[28.400643] (-) TimerEvent: {}
+[28.500904] (-) TimerEvent: {}
+[28.601142] (-) TimerEvent: {}
+[28.646755] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[28.701266] (-) TimerEvent: {}
+[28.729152] (turtlebot4_ignition_bringup) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[28.738522] (turtlebot4_ignition_bringup) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[28.740749] (turtlebot4_ignition_bringup) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[28.742430] (turtlebot4_ignition_bringup) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[28.747339] (turtlebot4_ignition_bringup) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[28.750504] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Configuring done\n'}
+[28.757858] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Generating done\n'}
+[28.759538] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Build files have been written to: /home/admin/turtlebot4_ws/src/build/turtlebot4_ignition_bringup\n'}
+[28.767017] (turtlebot4_ignition_bringup) CommandEnded: {'returncode': 0}
+[28.767603] (turtlebot4_ignition_bringup) JobProgress: {'identifier': 'turtlebot4_ignition_bringup', 'progress': 'build'}
+[28.768524] (turtlebot4_ignition_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/admin/turtlebot4_ws/src/build/turtlebot4_ignition_bringup', '--', '-j12', '-l12'], 'cwd': '/home/admin/turtlebot4_ws/src/build/turtlebot4_ignition_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'admin'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/admin'), ('OLDPWD', '/home/admin/turtlebot4_ws/src/turtlebot4_simulator'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3973'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'admin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'admin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '3'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sudharsanviswa-Predator-PH315-51:@/tmp/.ICE-unix/3939,unix/sudharsanviswa-Predator-PH315-51:/tmp/.ICE-unix/3939'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9b812b29_e590_4441_8461_e8877aae1a21'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox:/home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_gui_plugins:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/admin/turtlebot4_ws/src/build/turtlebot4_ignition_bringup'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox:/home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_gui_plugins:/opt/ros/humble')]), 'shell': False}
+[28.801396] (-) TimerEvent: {}
+[28.803369] (turtlebot4_ignition_bringup) CommandEnded: {'returncode': 0}
+[28.822777] (turtlebot4_ignition_bringup) JobProgress: {'identifier': 'turtlebot4_ignition_bringup', 'progress': 'install'}
+[28.823179] (turtlebot4_ignition_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/admin/turtlebot4_ws/src/build/turtlebot4_ignition_bringup'], 'cwd': '/home/admin/turtlebot4_ws/src/build/turtlebot4_ignition_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'admin'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/admin'), ('OLDPWD', '/home/admin/turtlebot4_ws/src/turtlebot4_simulator'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3973'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'admin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'admin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '3'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sudharsanviswa-Predator-PH315-51:@/tmp/.ICE-unix/3939,unix/sudharsanviswa-Predator-PH315-51:/tmp/.ICE-unix/3939'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9b812b29_e590_4441_8461_e8877aae1a21'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox:/home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_gui_plugins:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/admin/turtlebot4_ws/src/build/turtlebot4_ignition_bringup'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox:/home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_gui_plugins:/opt/ros/humble')]), 'shell': False}
+[28.830690] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[28.831122] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[28.831600] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_bringup/share/turtlebot4_ignition_bringup/config/turtlebot4_node.yaml\n'}
+[28.840135] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_bringup/share/turtlebot4_ignition_bringup/gui/lite/gui.config\n'}
+[28.848879] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_bringup/share/turtlebot4_ignition_bringup/gui/standard/gui.config\n'}
+[28.857306] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_bringup/share/turtlebot4_ignition_bringup/launch/ignition.launch.py\n'}
+[28.865447] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_bringup/share/turtlebot4_ignition_bringup/launch/ros_ign_bridge.launch.py\n'}
+[28.872712] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_bringup/share/turtlebot4_ignition_bringup/launch/turtlebot4_ignition.launch.py\n'}
+[28.880149] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_bringup/share/turtlebot4_ignition_bringup/launch/turtlebot4_nodes.launch.py\n'}
+[28.887345] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_bringup/share/turtlebot4_ignition_bringup/launch/turtlebot4_spawn.launch.py\n'}
+[28.895000] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_bringup/share/turtlebot4_ignition_bringup/worlds/depot.sdf\n'}
+[28.901485] (-) TimerEvent: {}
+[28.902352] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_bringup/share/turtlebot4_ignition_bringup/worlds/maze.sdf\n'}
+[28.909735] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_bringup/share/turtlebot4_ignition_bringup/worlds/warehouse.sdf\n'}
+[28.917233] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_bringup/share/ament_index/resource_index/package_run_dependencies/turtlebot4_ignition_bringup\n'}
+[28.924670] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_bringup/share/ament_index/resource_index/parent_prefix_path/turtlebot4_ignition_bringup\n'}
+[28.932569] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_bringup/share/turtlebot4_ignition_bringup/environment/ament_prefix_path.sh\n'}
+[28.940243] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_bringup/share/turtlebot4_ignition_bringup/environment/ament_prefix_path.dsv\n'}
+[28.947820] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_bringup/share/turtlebot4_ignition_bringup/environment/path.sh\n'}
+[28.955347] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_bringup/share/turtlebot4_ignition_bringup/environment/path.dsv\n'}
+[28.962824] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_bringup/share/turtlebot4_ignition_bringup/local_setup.bash\n'}
+[28.970633] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_bringup/share/turtlebot4_ignition_bringup/local_setup.sh\n'}
+[28.978202] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_bringup/share/turtlebot4_ignition_bringup/local_setup.zsh\n'}
+[28.985818] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_bringup/share/turtlebot4_ignition_bringup/local_setup.dsv\n'}
+[28.993444] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_bringup/share/turtlebot4_ignition_bringup/package.dsv\n'}
+[29.001137] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_bringup/share/ament_index/resource_index/packages/turtlebot4_ignition_bringup\n'}
+[29.001576] (-) TimerEvent: {}
+[29.008693] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_bringup/share/turtlebot4_ignition_bringup/cmake/turtlebot4_ignition_bringupConfig.cmake\n'}
+[29.016325] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_bringup/share/turtlebot4_ignition_bringup/cmake/turtlebot4_ignition_bringupConfig-version.cmake\n'}
+[29.023821] (turtlebot4_ignition_bringup) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_bringup/share/turtlebot4_ignition_bringup/package.xml\n'}
+[29.032731] (turtlebot4_ignition_bringup) CommandEnded: {'returncode': 0}
+[29.101717] (-) TimerEvent: {}
+[29.159840] (turtlebot4_ignition_bringup) JobEnded: {'identifier': 'turtlebot4_ignition_bringup', 'rc': 0}
+[29.160682] (turtlebot4_simulator) JobStarted: {'identifier': 'turtlebot4_simulator'}
+[29.202182] (-) TimerEvent: {}
+[29.215042] (turtlebot4_simulator) JobProgress: {'identifier': 'turtlebot4_simulator', 'progress': 'cmake'}
+[29.215647] (turtlebot4_simulator) Command: {'cmd': ['/usr/bin/cmake', '/home/admin/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_simulator', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/admin/turtlebot4_ws/src/install/turtlebot4_simulator'], 'cwd': '/home/admin/turtlebot4_ws/src/build/turtlebot4_simulator', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'admin'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/admin'), ('OLDPWD', '/home/admin/turtlebot4_ws/src/turtlebot4_simulator'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3973'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'admin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'admin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '3'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sudharsanviswa-Predator-PH315-51:@/tmp/.ICE-unix/3939,unix/sudharsanviswa-Predator-PH315-51:/tmp/.ICE-unix/3939'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9b812b29_e590_4441_8461_e8877aae1a21'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_bringup:/home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox:/home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_gui_plugins:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/admin/turtlebot4_ws/src/build/turtlebot4_simulator'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_bringup:/home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox:/home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_gui_plugins:/opt/ros/humble')]), 'shell': False}
+[29.262252] (turtlebot4_simulator) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[29.302316] (-) TimerEvent: {}
+[29.314642] (turtlebot4_simulator) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[29.321002] (turtlebot4_simulator) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[29.384705] (turtlebot4_simulator) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[29.392938] (turtlebot4_simulator) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[29.393217] (turtlebot4_simulator) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[29.393636] (turtlebot4_simulator) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[29.396845] (turtlebot4_simulator) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[29.402413] (-) TimerEvent: {}
+[29.465573] (turtlebot4_simulator) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[29.472541] (turtlebot4_simulator) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[29.472791] (turtlebot4_simulator) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[29.473191] (turtlebot4_simulator) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[29.475703] (turtlebot4_simulator) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[29.502535] (-) TimerEvent: {}
+[29.602781] (-) TimerEvent: {}
+[29.628445] (turtlebot4_simulator) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[29.689993] (turtlebot4_simulator) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[29.702882] (-) TimerEvent: {}
+[29.781636] (turtlebot4_simulator) StdoutLine: {'line': b'-- Configuring done\n'}
+[29.784064] (turtlebot4_simulator) StdoutLine: {'line': b'-- Generating done\n'}
+[29.784770] (turtlebot4_simulator) StdoutLine: {'line': b'-- Build files have been written to: /home/admin/turtlebot4_ws/src/build/turtlebot4_simulator\n'}
+[29.788716] (turtlebot4_simulator) CommandEnded: {'returncode': 0}
+[29.789174] (turtlebot4_simulator) JobProgress: {'identifier': 'turtlebot4_simulator', 'progress': 'build'}
+[29.789906] (turtlebot4_simulator) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/admin/turtlebot4_ws/src/build/turtlebot4_simulator', '--', '-j12', '-l12'], 'cwd': '/home/admin/turtlebot4_ws/src/build/turtlebot4_simulator', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'admin'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/admin'), ('OLDPWD', '/home/admin/turtlebot4_ws/src/turtlebot4_simulator'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3973'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'admin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'admin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '3'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sudharsanviswa-Predator-PH315-51:@/tmp/.ICE-unix/3939,unix/sudharsanviswa-Predator-PH315-51:/tmp/.ICE-unix/3939'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9b812b29_e590_4441_8461_e8877aae1a21'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_bringup:/home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox:/home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_gui_plugins:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/admin/turtlebot4_ws/src/build/turtlebot4_simulator'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_bringup:/home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox:/home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_gui_plugins:/opt/ros/humble')]), 'shell': False}
+[29.803012] (-) TimerEvent: {}
+[29.822018] (turtlebot4_simulator) CommandEnded: {'returncode': 0}
+[29.842069] (turtlebot4_simulator) JobProgress: {'identifier': 'turtlebot4_simulator', 'progress': 'install'}
+[29.843060] (turtlebot4_simulator) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/admin/turtlebot4_ws/src/build/turtlebot4_simulator'], 'cwd': '/home/admin/turtlebot4_ws/src/build/turtlebot4_simulator', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'admin'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/admin'), ('OLDPWD', '/home/admin/turtlebot4_ws/src/turtlebot4_simulator'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '3973'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'admin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'admin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '3'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sudharsanviswa-Predator-PH315-51:@/tmp/.ICE-unix/3939,unix/sudharsanviswa-Predator-PH315-51:/tmp/.ICE-unix/3939'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9b812b29_e590_4441_8461_e8877aae1a21'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_bringup:/home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox:/home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_gui_plugins:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/admin/turtlebot4_ws/src/build/turtlebot4_simulator'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_bringup:/home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox:/home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_gui_plugins:/opt/ros/humble')]), 'shell': False}
+[29.851318] (turtlebot4_simulator) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[29.851845] (turtlebot4_simulator) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[29.852201] (turtlebot4_simulator) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_simulator/share/ament_index/resource_index/package_run_dependencies/turtlebot4_simulator\n'}
+[29.862442] (turtlebot4_simulator) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_simulator/share/ament_index/resource_index/parent_prefix_path/turtlebot4_simulator\n'}
+[29.872502] (turtlebot4_simulator) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_simulator/share/turtlebot4_simulator/environment/ament_prefix_path.sh\n'}
+[29.882472] (turtlebot4_simulator) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_simulator/share/turtlebot4_simulator/environment/ament_prefix_path.dsv\n'}
+[29.892415] (turtlebot4_simulator) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_simulator/share/turtlebot4_simulator/environment/path.sh\n'}
+[29.902344] (turtlebot4_simulator) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_simulator/share/turtlebot4_simulator/environment/path.dsv\n'}
+[29.903105] (-) TimerEvent: {}
+[29.912135] (turtlebot4_simulator) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_simulator/share/turtlebot4_simulator/local_setup.bash\n'}
+[29.921944] (turtlebot4_simulator) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_simulator/share/turtlebot4_simulator/local_setup.sh\n'}
+[29.931979] (turtlebot4_simulator) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_simulator/share/turtlebot4_simulator/local_setup.zsh\n'}
+[29.941829] (turtlebot4_simulator) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_simulator/share/turtlebot4_simulator/local_setup.dsv\n'}
+[29.952227] (turtlebot4_simulator) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_simulator/share/turtlebot4_simulator/package.dsv\n'}
+[29.962211] (turtlebot4_simulator) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_simulator/share/ament_index/resource_index/packages/turtlebot4_simulator\n'}
+[29.972140] (turtlebot4_simulator) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_simulator/share/turtlebot4_simulator/cmake/turtlebot4_simulatorConfig.cmake\n'}
+[29.982132] (turtlebot4_simulator) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_simulator/share/turtlebot4_simulator/cmake/turtlebot4_simulatorConfig-version.cmake\n'}
+[29.992205] (turtlebot4_simulator) StdoutLine: {'line': b'-- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_simulator/share/turtlebot4_simulator/package.xml\n'}
+[30.003230] (-) TimerEvent: {}
+[30.004340] (turtlebot4_simulator) CommandEnded: {'returncode': 0}
+[30.103342] (-) TimerEvent: {}
+[30.136534] (turtlebot4_simulator) JobEnded: {'identifier': 'turtlebot4_simulator', 'rc': 0}
+[30.137207] (-) EventReactorShutdown: {}

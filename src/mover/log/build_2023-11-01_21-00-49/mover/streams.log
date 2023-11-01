@@ -1,0 +1,44 @@
+[3.130s] Invoking command in '/home/admin/turtlebot4_ws/src/mover/build/mover': PYTHONPATH=/home/admin/turtlebot4_ws/src/mover/build/mover/prefix_override:/home/admin/turtlebot4_ws/src/mover/install/mover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/admin/turtlebot4_ws/src/mover/build/mover/build
+[3.969s] running develop
+[3.989s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.989s]   warnings.warn(
+[4.010s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.010s]   warnings.warn(
+[4.659s] Removing /home/admin/turtlebot4_ws/src/mover/install/mover/lib/python3.10/site-packages/mover.egg-link (link to .)
+[4.740s] Invoked command in '/home/admin/turtlebot4_ws/src/mover/build/mover' returned '0': PYTHONPATH=/home/admin/turtlebot4_ws/src/mover/build/mover/prefix_override:/home/admin/turtlebot4_ws/src/mover/install/mover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/admin/turtlebot4_ws/src/mover/build/mover/build
+[4.742s] Invoking command in '/home/admin/turtlebot4_ws/src/mover': PYTHONPATH=/home/admin/turtlebot4_ws/src/mover/build/mover/prefix_override:/home/admin/turtlebot4_ws/src/mover/install/mover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mover build --build-base /home/admin/turtlebot4_ws/src/mover/build/mover/build install --record /home/admin/turtlebot4_ws/src/mover/build/mover/install.log --single-version-externally-managed
+[5.496s] running egg_info
+[5.498s] writing build/mover/mover.egg-info/PKG-INFO
+[5.499s] writing dependency_links to build/mover/mover.egg-info/dependency_links.txt
+[5.500s] writing entry points to build/mover/mover.egg-info/entry_points.txt
+[5.500s] writing requirements to build/mover/mover.egg-info/requires.txt
+[5.500s] writing top-level names to build/mover/mover.egg-info/top_level.txt
+[5.507s] reading manifest file 'build/mover/mover.egg-info/SOURCES.txt'
+[5.510s] writing manifest file 'build/mover/mover.egg-info/SOURCES.txt'
+[5.510s] running build
+[5.511s] running build_py
+[5.512s] creating /home/admin/turtlebot4_ws/src/mover/build/mover/build
+[5.512s] creating /home/admin/turtlebot4_ws/src/mover/build/mover/build/lib
+[5.512s] creating /home/admin/turtlebot4_ws/src/mover/build/mover/build/lib/mover
+[5.512s] copying mover/Nav_to.py -> /home/admin/turtlebot4_ws/src/mover/build/mover/build/lib/mover
+[5.513s] copying mover/nav_to_pose.py -> /home/admin/turtlebot4_ws/src/mover/build/mover/build/lib/mover
+[5.513s] copying mover/__init__.py -> /home/admin/turtlebot4_ws/src/mover/build/mover/build/lib/mover
+[5.513s] running install
+[5.514s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.514s]   warnings.warn(
+[5.514s] running install_lib
+[5.517s] creating /home/admin/turtlebot4_ws/src/mover/install/mover/lib/python3.10/site-packages/mover
+[5.517s] copying /home/admin/turtlebot4_ws/src/mover/build/mover/build/lib/mover/Nav_to.py -> /home/admin/turtlebot4_ws/src/mover/install/mover/lib/python3.10/site-packages/mover
+[5.517s] copying /home/admin/turtlebot4_ws/src/mover/build/mover/build/lib/mover/nav_to_pose.py -> /home/admin/turtlebot4_ws/src/mover/install/mover/lib/python3.10/site-packages/mover
+[5.517s] copying /home/admin/turtlebot4_ws/src/mover/build/mover/build/lib/mover/__init__.py -> /home/admin/turtlebot4_ws/src/mover/install/mover/lib/python3.10/site-packages/mover
+[5.518s] byte-compiling /home/admin/turtlebot4_ws/src/mover/install/mover/lib/python3.10/site-packages/mover/Nav_to.py to Nav_to.cpython-310.pyc
+[5.521s] byte-compiling /home/admin/turtlebot4_ws/src/mover/install/mover/lib/python3.10/site-packages/mover/nav_to_pose.py to nav_to_pose.cpython-310.pyc
+[5.522s] byte-compiling /home/admin/turtlebot4_ws/src/mover/install/mover/lib/python3.10/site-packages/mover/__init__.py to __init__.cpython-310.pyc
+[5.522s] running install_data
+[5.525s] running install_egg_info
+[5.534s] Copying build/mover/mover.egg-info to /home/admin/turtlebot4_ws/src/mover/install/mover/lib/python3.10/site-packages/mover-0.0.0-py3.10.egg-info
+[6.011s] running install_scripts
+[6.075s] Installing nav_to script to /home/admin/turtlebot4_ws/src/mover/install/mover/lib/mover
+[6.075s] Installing nav_to_pose script to /home/admin/turtlebot4_ws/src/mover/install/mover/lib/mover
+[6.076s] writing list of installed files to '/home/admin/turtlebot4_ws/src/mover/build/mover/install.log'
+[6.145s] Invoked command in '/home/admin/turtlebot4_ws/src/mover' returned '0': PYTHONPATH=/home/admin/turtlebot4_ws/src/mover/build/mover/prefix_override:/home/admin/turtlebot4_ws/src/mover/install/mover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mover build --build-base /home/admin/turtlebot4_ws/src/mover/build/mover/build install --record /home/admin/turtlebot4_ws/src/mover/build/mover/install.log --single-version-externally-managed

@@ -1,0 +1,113 @@
+[0.000000] (-) TimerEvent: {}
+[0.000417] (mover) JobQueued: {'identifier': 'mover', 'dependencies': OrderedDict()}
+[0.001593] (mover) JobStarted: {'identifier': 'mover'}
+[0.099338] (-) TimerEvent: {}
+[0.199797] (-) TimerEvent: {}
+[0.300673] (-) TimerEvent: {}
+[0.401261] (-) TimerEvent: {}
+[0.501736] (-) TimerEvent: {}
+[0.602203] (-) TimerEvent: {}
+[0.702683] (-) TimerEvent: {}
+[0.803307] (-) TimerEvent: {}
+[0.904232] (-) TimerEvent: {}
+[1.004773] (-) TimerEvent: {}
+[1.105279] (-) TimerEvent: {}
+[1.205787] (-) TimerEvent: {}
+[1.306303] (-) TimerEvent: {}
+[1.410673] (-) TimerEvent: {}
+[1.511153] (-) TimerEvent: {}
+[1.611637] (-) TimerEvent: {}
+[1.712114] (-) TimerEvent: {}
+[1.812644] (-) TimerEvent: {}
+[1.913181] (-) TimerEvent: {}
+[2.013733] (-) TimerEvent: {}
+[2.114369] (-) TimerEvent: {}
+[2.215214] (-) TimerEvent: {}
+[2.315731] (-) TimerEvent: {}
+[2.416229] (-) TimerEvent: {}
+[2.516687] (-) TimerEvent: {}
+[2.617206] (-) TimerEvent: {}
+[2.717785] (-) TimerEvent: {}
+[2.818250] (-) TimerEvent: {}
+[2.918774] (-) TimerEvent: {}
+[3.019317] (-) TimerEvent: {}
+[3.119854] (-) TimerEvent: {}
+[3.125288] (mover) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/admin/turtlebot4_ws/src/mover/build/mover/build'], 'cwd': '/home/admin/turtlebot4_ws/src/mover/build/mover', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'admin', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/admin', 'OLDPWD': '/home/admin/turtlebot4_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '5238', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'admin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'admin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '3', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/sudharsanviswa-Predator-PH315-51:@/tmp/.ICE-unix/4607,unix/sudharsanviswa-Predator-PH315-51:/tmp/.ICE-unix/4607', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/829befa3_35c4_4578_bdd5_3d43123dc98e', 'XDG_RUNTIME_DIR': '/run/user/1001', 'DISPLAY': ':2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1001/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.94', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1001/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1001/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/admin/turtlebot4_ws/src/mover/build/mover', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/admin/turtlebot4_ws/src/mover/build/mover/prefix_override:/home/admin/turtlebot4_ws/src/mover/install/mover/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.219976] (-) TimerEvent: {}
+[3.320401] (-) TimerEvent: {}
+[3.420816] (-) TimerEvent: {}
+[3.521221] (-) TimerEvent: {}
+[3.621737] (-) TimerEvent: {}
+[3.722153] (-) TimerEvent: {}
+[3.822624] (-) TimerEvent: {}
+[3.923092] (-) TimerEvent: {}
+[3.970764] (mover) StdoutLine: {'line': b'running develop\n'}
+[3.990428] (mover) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[3.990911] (mover) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.011307] (mover) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.011838] (mover) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.023272] (-) TimerEvent: {}
+[4.123835] (-) TimerEvent: {}
+[4.224331] (-) TimerEvent: {}
+[4.324826] (-) TimerEvent: {}
+[4.425358] (-) TimerEvent: {}
+[4.525799] (-) TimerEvent: {}
+[4.626219] (-) TimerEvent: {}
+[4.660000] (mover) StdoutLine: {'line': b'Removing /home/admin/turtlebot4_ws/src/mover/install/mover/lib/python3.10/site-packages/mover.egg-link (link to .)\n'}
+[4.726403] (-) TimerEvent: {}
+[4.740032] (mover) CommandEnded: {'returncode': 0}
+[4.743032] (mover) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', 'build/mover', 'build', '--build-base', '/home/admin/turtlebot4_ws/src/mover/build/mover/build', 'install', '--record', '/home/admin/turtlebot4_ws/src/mover/build/mover/install.log', '--single-version-externally-managed'], 'cwd': '/home/admin/turtlebot4_ws/src/mover', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'admin', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/admin', 'OLDPWD': '/home/admin/turtlebot4_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '5238', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'admin', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'admin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '3', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/sudharsanviswa-Predator-PH315-51:@/tmp/.ICE-unix/4607,unix/sudharsanviswa-Predator-PH315-51:/tmp/.ICE-unix/4607', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/829befa3_35c4_4578_bdd5_3d43123dc98e', 'XDG_RUNTIME_DIR': '/run/user/1001', 'DISPLAY': ':2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1001/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.94', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1001/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1001/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/admin/turtlebot4_ws/src/mover/build/mover', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/admin/turtlebot4_ws/src/mover/build/mover/prefix_override:/home/admin/turtlebot4_ws/src/mover/install/mover/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[4.826535] (-) TimerEvent: {}
+[4.927091] (-) TimerEvent: {}
+[5.027750] (-) TimerEvent: {}
+[5.128248] (-) TimerEvent: {}
+[5.228779] (-) TimerEvent: {}
+[5.329263] (-) TimerEvent: {}
+[5.429692] (-) TimerEvent: {}
+[5.497648] (mover) StdoutLine: {'line': b'running egg_info\n'}
+[5.499808] (mover) StdoutLine: {'line': b'writing build/mover/mover.egg-info/PKG-INFO\n'}
+[5.500548] (mover) StdoutLine: {'line': b'writing dependency_links to build/mover/mover.egg-info/dependency_links.txt\n'}
+[5.501056] (mover) StdoutLine: {'line': b'writing entry points to build/mover/mover.egg-info/entry_points.txt\n'}
+[5.501399] (mover) StdoutLine: {'line': b'writing requirements to build/mover/mover.egg-info/requires.txt\n'}
+[5.501754] (mover) StdoutLine: {'line': b'writing top-level names to build/mover/mover.egg-info/top_level.txt\n'}
+[5.507878] (mover) StdoutLine: {'line': b"reading manifest file 'build/mover/mover.egg-info/SOURCES.txt'\n"}
+[5.511242] (mover) StdoutLine: {'line': b"writing manifest file 'build/mover/mover.egg-info/SOURCES.txt'\n"}
+[5.511895] (mover) StdoutLine: {'line': b'running build\n'}
+[5.512384] (mover) StdoutLine: {'line': b'running build_py\n'}
+[5.512990] (mover) StdoutLine: {'line': b'creating /home/admin/turtlebot4_ws/src/mover/build/mover/build\n'}
+[5.513326] (mover) StdoutLine: {'line': b'creating /home/admin/turtlebot4_ws/src/mover/build/mover/build/lib\n'}
+[5.513661] (mover) StdoutLine: {'line': b'creating /home/admin/turtlebot4_ws/src/mover/build/mover/build/lib/mover\n'}
+[5.513954] (mover) StdoutLine: {'line': b'copying mover/Nav_to.py -> /home/admin/turtlebot4_ws/src/mover/build/mover/build/lib/mover\n'}
+[5.514247] (mover) StdoutLine: {'line': b'copying mover/nav_to_pose.py -> /home/admin/turtlebot4_ws/src/mover/build/mover/build/lib/mover\n'}
+[5.514633] (mover) StdoutLine: {'line': b'copying mover/__init__.py -> /home/admin/turtlebot4_ws/src/mover/build/mover/build/lib/mover\n'}
+[5.514942] (mover) StdoutLine: {'line': b'running install\n'}
+[5.515224] (mover) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.515506] (mover) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.515860] (mover) StdoutLine: {'line': b'running install_lib\n'}
+[5.517839] (mover) StdoutLine: {'line': b'creating /home/admin/turtlebot4_ws/src/mover/install/mover/lib/python3.10/site-packages/mover\n'}
+[5.518323] (mover) StdoutLine: {'line': b'copying /home/admin/turtlebot4_ws/src/mover/build/mover/build/lib/mover/Nav_to.py -> /home/admin/turtlebot4_ws/src/mover/install/mover/lib/python3.10/site-packages/mover\n'}
+[5.518662] (mover) StdoutLine: {'line': b'copying /home/admin/turtlebot4_ws/src/mover/build/mover/build/lib/mover/nav_to_pose.py -> /home/admin/turtlebot4_ws/src/mover/install/mover/lib/python3.10/site-packages/mover\n'}
+[5.518947] (mover) StdoutLine: {'line': b'copying /home/admin/turtlebot4_ws/src/mover/build/mover/build/lib/mover/__init__.py -> /home/admin/turtlebot4_ws/src/mover/install/mover/lib/python3.10/site-packages/mover\n'}
+[5.519627] (mover) StdoutLine: {'line': b'byte-compiling /home/admin/turtlebot4_ws/src/mover/install/mover/lib/python3.10/site-packages/mover/Nav_to.py to Nav_to.cpython-310.pyc\n'}
+[5.522043] (mover) StdoutLine: {'line': b'byte-compiling /home/admin/turtlebot4_ws/src/mover/install/mover/lib/python3.10/site-packages/mover/nav_to_pose.py to nav_to_pose.cpython-310.pyc\n'}
+[5.523315] (mover) StdoutLine: {'line': b'byte-compiling /home/admin/turtlebot4_ws/src/mover/install/mover/lib/python3.10/site-packages/mover/__init__.py to __init__.cpython-310.pyc\n'}
+[5.523888] (mover) StdoutLine: {'line': b'running install_data\n'}
+[5.525960] (mover) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.529830] (-) TimerEvent: {}
+[5.534986] (mover) StdoutLine: {'line': b'Copying build/mover/mover.egg-info to /home/admin/turtlebot4_ws/src/mover/install/mover/lib/python3.10/site-packages/mover-0.0.0-py3.10.egg-info\n'}
+[5.630040] (-) TimerEvent: {}
+[5.730839] (-) TimerEvent: {}
+[5.831301] (-) TimerEvent: {}
+[5.931742] (-) TimerEvent: {}
+[6.012863] (mover) StdoutLine: {'line': b'running install_scripts\n'}
+[6.031881] (-) TimerEvent: {}
+[6.076438] (mover) StdoutLine: {'line': b'Installing nav_to script to /home/admin/turtlebot4_ws/src/mover/install/mover/lib/mover\n'}
+[6.076864] (mover) StdoutLine: {'line': b'Installing nav_to_pose script to /home/admin/turtlebot4_ws/src/mover/install/mover/lib/mover\n'}
+[6.077834] (mover) StdoutLine: {'line': b"writing list of installed files to '/home/admin/turtlebot4_ws/src/mover/build/mover/install.log'\n"}
+[6.131996] (-) TimerEvent: {}
+[6.145318] (mover) CommandEnded: {'returncode': 0}
+[6.232130] (-) TimerEvent: {}
+[6.332686] (-) TimerEvent: {}
+[6.433436] (-) TimerEvent: {}
+[6.435374] (mover) JobEnded: {'identifier': 'mover', 'rc': 0}
+[6.437359] (-) EventReactorShutdown: {}

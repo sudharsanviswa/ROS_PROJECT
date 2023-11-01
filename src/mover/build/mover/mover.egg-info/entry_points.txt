@@ -1,0 +1,4 @@
+[console_scripts]
+nav_to = mover.Nav_to:main
+nav_to_pose = mover.nav_to_pose:main
+

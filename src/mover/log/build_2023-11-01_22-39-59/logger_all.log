@@ -1,0 +1,94 @@
+[3.478s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[3.478s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f777bce9ae0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f777bc9d210>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f777bc9d210>>)
+[3.636s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.636s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.637s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.637s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.637s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.637s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.637s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/admin/turtlebot4_ws/src/mover'
+[3.637s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.638s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.638s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.638s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.638s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.638s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.638s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.680s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'mover'
+[3.680s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.681s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.681s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.681s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.681s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.006s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.007s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.116s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/admin/turtlebot4_ws/src/mover/install
+[4.180s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 380 installed packages in /opt/ros/humble
+[4.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.611s] Level 5:colcon.colcon_core.verb:set package 'mover' build argument 'cmake_args' from command line to 'None'
+[4.611s] Level 5:colcon.colcon_core.verb:set package 'mover' build argument 'cmake_target' from command line to 'None'
+[4.611s] Level 5:colcon.colcon_core.verb:set package 'mover' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.611s] Level 5:colcon.colcon_core.verb:set package 'mover' build argument 'cmake_clean_cache' from command line to 'False'
+[4.612s] Level 5:colcon.colcon_core.verb:set package 'mover' build argument 'cmake_clean_first' from command line to 'False'
+[4.612s] Level 5:colcon.colcon_core.verb:set package 'mover' build argument 'cmake_force_configure' from command line to 'False'
+[4.612s] Level 5:colcon.colcon_core.verb:set package 'mover' build argument 'ament_cmake_args' from command line to 'None'
+[4.612s] Level 5:colcon.colcon_core.verb:set package 'mover' build argument 'catkin_cmake_args' from command line to 'None'
+[4.612s] Level 5:colcon.colcon_core.verb:set package 'mover' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.612s] DEBUG:colcon.colcon_core.verb:Building package 'mover' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/admin/turtlebot4_ws/src/mover/build/mover', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/admin/turtlebot4_ws/src/mover/install/mover', 'merge_install': False, 'path': '/home/admin/turtlebot4_ws/src/mover', 'symlink_install': True, 'test_result_base': None}
+[4.669s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.720s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.721s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/admin/turtlebot4_ws/src/mover' with build type 'ament_python'
+[4.721s] Level 1:colcon.colcon_core.shell:create_environment_hook('mover', 'ament_prefix_path')
+[4.783s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/admin/turtlebot4_ws/src/mover/install/mover/share/mover/hook/ament_prefix_path.ps1'
+[4.786s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/admin/turtlebot4_ws/src/mover/install/mover/share/mover/hook/ament_prefix_path.dsv'
+[4.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/admin/turtlebot4_ws/src/mover/install/mover/share/mover/hook/ament_prefix_path.sh'
+[4.848s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.848s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.793s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/admin/turtlebot4_ws/src/mover'
+[5.848s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.848s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.502s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/admin/turtlebot4_ws/src/mover/build/mover': PYTHONPATH=/home/admin/turtlebot4_ws/src/mover/build/mover/prefix_override:/home/admin/turtlebot4_ws/src/mover/install/mover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/admin/turtlebot4_ws/src/mover/build/mover/build --no-deps install_data
+[9.022s] Level 1:colcon.colcon_core.shell:create_environment_hook('mover', 'pythonpath_develop')
+[9.024s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/admin/turtlebot4_ws/src/mover/build/mover' returned '0': PYTHONPATH=/home/admin/turtlebot4_ws/src/mover/build/mover/prefix_override:/home/admin/turtlebot4_ws/src/mover/install/mover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/admin/turtlebot4_ws/src/mover/build/mover/build --no-deps install_data
+[9.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/admin/turtlebot4_ws/src/mover/build/mover/share/mover/hook/pythonpath_develop.ps1'
+[9.076s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/admin/turtlebot4_ws/src/mover/build/mover/share/mover/hook/pythonpath_develop.dsv'
+[9.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/admin/turtlebot4_ws/src/mover/build/mover/share/mover/hook/pythonpath_develop.sh'
+[9.141s] Level 1:colcon.colcon_core.environment:checking '/home/admin/turtlebot4_ws/src/mover/install/mover' for CMake module files
+[9.142s] Level 1:colcon.colcon_core.environment:checking '/home/admin/turtlebot4_ws/src/mover/install/mover' for CMake config files
+[9.144s] Level 1:colcon.colcon_core.environment:checking '/home/admin/turtlebot4_ws/src/mover/install/mover/lib'
+[9.145s] Level 1:colcon.colcon_core.environment:checking '/home/admin/turtlebot4_ws/src/mover/install/mover/bin'
+[9.145s] Level 1:colcon.colcon_core.environment:checking '/home/admin/turtlebot4_ws/src/mover/install/mover/lib/pkgconfig/mover.pc'
+[9.146s] Level 1:colcon.colcon_core.environment:checking '/home/admin/turtlebot4_ws/src/mover/install/mover/lib/python3.10/site-packages'
+[9.146s] Level 1:colcon.colcon_core.shell:create_environment_hook('mover', 'pythonpath')
+[9.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/admin/turtlebot4_ws/src/mover/install/mover/share/mover/hook/pythonpath.ps1'
+[9.198s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/admin/turtlebot4_ws/src/mover/install/mover/share/mover/hook/pythonpath.dsv'
+[9.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/admin/turtlebot4_ws/src/mover/install/mover/share/mover/hook/pythonpath.sh'
+[9.201s] Level 1:colcon.colcon_core.environment:checking '/home/admin/turtlebot4_ws/src/mover/install/mover/bin'
+[9.201s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mover)
+[9.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/admin/turtlebot4_ws/src/mover/install/mover/share/mover/package.ps1'
+[9.252s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/admin/turtlebot4_ws/src/mover/install/mover/share/mover/package.dsv'
+[9.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/admin/turtlebot4_ws/src/mover/install/mover/share/mover/package.sh'
+[9.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/admin/turtlebot4_ws/src/mover/install/mover/share/mover/package.bash'
+[9.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/admin/turtlebot4_ws/src/mover/install/mover/share/mover/package.zsh'
+[9.259s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/admin/turtlebot4_ws/src/mover/install/mover/share/colcon-core/packages/mover)
+[9.260s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.260s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.260s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.261s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.329s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.329s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.329s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.361s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.418s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/admin/turtlebot4_ws/src/mover/install/local_setup.ps1'
+[9.421s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/admin/turtlebot4_ws/src/mover/install/_local_setup_util_ps1.py'
+[9.425s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/admin/turtlebot4_ws/src/mover/install/setup.ps1'
+[9.488s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/admin/turtlebot4_ws/src/mover/install/local_setup.sh'
+[9.490s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/admin/turtlebot4_ws/src/mover/install/_local_setup_util_sh.py'
+[9.492s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/admin/turtlebot4_ws/src/mover/install/setup.sh'
+[9.556s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/admin/turtlebot4_ws/src/mover/install/local_setup.bash'
+[9.558s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/admin/turtlebot4_ws/src/mover/install/setup.bash'
+[9.619s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/admin/turtlebot4_ws/src/mover/install/local_setup.zsh'
+[9.621s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/admin/turtlebot4_ws/src/mover/install/setup.zsh'

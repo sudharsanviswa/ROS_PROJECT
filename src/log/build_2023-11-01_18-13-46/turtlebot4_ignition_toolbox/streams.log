@@ -1,0 +1,79 @@
+[0.076s] Invoking command in '/home/admin/turtlebot4_ws/src/build/turtlebot4_ignition_toolbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/admin/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox
+[1.312s] -- The C compiler identification is GNU 11.4.0
+[1.951s] -- The CXX compiler identification is GNU 11.4.0
+[2.037s] -- Detecting C compiler ABI info
+[2.237s] -- Detecting C compiler ABI info - done
+[2.244s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.245s] -- Detecting C compile features
+[2.257s] -- Detecting C compile features - done
+[2.275s] -- Detecting CXX compiler ABI info
+[2.469s] -- Detecting CXX compiler ABI info - done
+[2.476s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.477s] -- Detecting CXX compile features
+[2.477s] -- Detecting CXX compile features - done
+[2.653s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.912s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.998s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.159s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[3.499s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.581s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.631s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.805s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.890s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.226s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.247s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.563s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.635s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.680s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.742s] -- Looking for pthread.h
+[4.829s] -- Looking for pthread.h - found
+[4.829s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.892s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.893s] -- Found Threads: TRUE  
+[5.347s] -- Found rclcpp_action: 16.0.6 (/opt/ros/humble/share/rclcpp_action/cmake)
+[5.735s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[6.111s] -- Found turtlebot4_msgs: 1.0.3 (/opt/ros/humble/share/turtlebot4_msgs/cmake)
+[6.183s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.256s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.256s] -- Configured cppcheck include dirs: /home/admin/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_toolbox/include
+[6.256s] -- Configured cppcheck exclude dirs and/or files: 
+[6.257s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.257s] -- Configured cpplint exclude dirs and/or files: 
+[6.258s] -- Added test 'lint_cmake' to check CMake code style
+[6.269s] -- Added test 'uncrustify' to check C / C++ code style
+[6.269s] -- Configured uncrustify additional arguments: 
+[6.269s] -- Added test 'xmllint' to check XML markup files
+[6.291s] -- Configuring done
+[6.306s] -- Generating done
+[6.308s] -- Build files have been written to: /home/admin/turtlebot4_ws/src/build/turtlebot4_ignition_toolbox
+[6.319s] Invoked command in '/home/admin/turtlebot4_ws/src/build/turtlebot4_ignition_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/admin/turtlebot4_ws/src/turtlebot4_simulator/turtlebot4_ignition_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox
+[6.319s] Invoking command in '/home/admin/turtlebot4_ws/src/build/turtlebot4_ignition_toolbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/admin/turtlebot4_ws/src/build/turtlebot4_ignition_toolbox -- -j12 -l12
+[6.365s] [ 20%] [32mBuilding CXX object CMakeFiles/turtlebot4_ignition_toolbox_lib.dir/src/hmi_main.cpp.o[0m
+[6.365s] [ 40%] [32mBuilding CXX object CMakeFiles/turtlebot4_ignition_toolbox_lib.dir/src/hmi_node.cpp.o[0m
+[23.386s] [ 60%] [32m[1mLinking CXX static library libturtlebot4_ignition_toolbox_lib.a[0m
+[23.996s] [ 60%] Built target turtlebot4_ignition_toolbox_lib
+[24.014s] [ 80%] [32mBuilding CXX object CMakeFiles/turtlebot4_ignition_hmi_node.dir/src/hmi_main.cpp.o[0m
+[26.413s] [100%] [32m[1mLinking CXX executable turtlebot4_ignition_hmi_node[0m
+[27.155s] [100%] Built target turtlebot4_ignition_hmi_node
+[27.165s] Invoked command in '/home/admin/turtlebot4_ws/src/build/turtlebot4_ignition_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/admin/turtlebot4_ws/src/build/turtlebot4_ignition_toolbox -- -j12 -l12
+[27.191s] Invoking command in '/home/admin/turtlebot4_ws/src/build/turtlebot4_ignition_toolbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/admin/turtlebot4_ws/src/build/turtlebot4_ignition_toolbox
+[27.198s] -- Install configuration: ""
+[27.199s] -- Execute custom install script
+[27.199s] -- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox/lib/turtlebot4_ignition_toolbox/turtlebot4_ignition_hmi_node
+[27.207s] -- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox/share/ament_index/resource_index/package_run_dependencies/turtlebot4_ignition_toolbox
+[27.214s] -- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox/share/ament_index/resource_index/parent_prefix_path/turtlebot4_ignition_toolbox
+[27.221s] -- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/environment/ament_prefix_path.sh
+[27.229s] -- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/environment/ament_prefix_path.dsv
+[27.236s] -- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/environment/path.sh
+[27.244s] -- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/environment/path.dsv
+[27.252s] -- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/local_setup.bash
+[27.259s] -- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/local_setup.sh
+[27.266s] -- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/local_setup.zsh
+[27.274s] -- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/local_setup.dsv
+[27.282s] -- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/package.dsv
+[27.289s] -- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox/share/ament_index/resource_index/packages/turtlebot4_ignition_toolbox
+[27.297s] -- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/cmake/ament_cmake_export_include_directories-extras.cmake
+[27.304s] -- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/cmake/turtlebot4_ignition_toolboxConfig.cmake
+[27.312s] -- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/cmake/turtlebot4_ignition_toolboxConfig-version.cmake
+[27.319s] -- Symlinking: /home/admin/turtlebot4_ws/src/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/package.xml
+[27.329s] Invoked command in '/home/admin/turtlebot4_ws/src/build/turtlebot4_ignition_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/admin/turtlebot4_ws/src/build/turtlebot4_ignition_toolbox
